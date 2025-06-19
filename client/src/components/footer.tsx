@@ -18,9 +18,9 @@ const Footer = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <div className="font-bold text-2xl mb-4">Alex Johnson</div>
+          <div className="font-bold text-2xl mb-4">Your Name</div>
           <p className="text-slate-400 mb-6">
-            Building the future, one line of code at a time.
+            Your personal motto or tagline goes here.
           </p>
           
           <div className="flex justify-center gap-6 mb-8">
@@ -40,7 +40,7 @@ const Footer = () => {
           
           <div className="border-t border-slate-800 pt-8">
             <p className="text-slate-400 text-sm">
-              © 2024 Alex Johnson. All rights reserved.
+              © 2025 Your Name. All rights reserved.
             </p>
           </div>
         </motion.div>

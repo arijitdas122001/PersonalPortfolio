@@ -55,21 +55,21 @@ const ContactSection = () => {
       iconColor: "text-blue-600",
       bgColor: "bg-blue-100",
       title: "Email",
-      value: "alex.johnson@email.com"
+      value: "your.email@example.com"
     },
     {
       icon: "fas fa-phone",
       iconColor: "text-cyan-600",
       bgColor: "bg-cyan-100",
       title: "Phone",
-      value: "+1 (555) 123-4567"
+      value: "Your Phone Number"
     },
     {
       icon: "fas fa-map-marker-alt",
       iconColor: "text-violet-600",
       bgColor: "bg-violet-100",
       title: "Location",
-      value: "San Francisco, CA"
+      value: "Your City, State"
     }
   ];
 
