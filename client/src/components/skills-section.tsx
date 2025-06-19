@@ -19,9 +19,8 @@ const SkillsSection = () => {
       icon: "fas fa-laptop-code",
       iconColor: "text-blue-600",
       bgColor: "bg-blue-100",
-      skills: [
+      skills: [ 
         { name: "React.js", level: "Expert" },
-        { name: "TypeScript", level: "Expert" },
         { name: "Redux", level: "Intermediate" },
         { name: "Tailwind CSS", level: "Expert" },
         { name: "Next.js", level: "Intermediate" }
@@ -58,7 +57,7 @@ const SkillsSection = () => {
       iconColor: "text-violet-600",
       bgColor: "bg-violet-100",
       skills: [
-        { name: "Data Structures", level: "Expert" },
+        { name: "Microservices", level: "Intermediate" },
         { name: "Git & GitHub", level: "Expert" },
         { name: "Docker", level: "Learning" },
         { name: "Kubernetes", level: "Learning" },
