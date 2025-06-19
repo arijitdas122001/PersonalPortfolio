@@ -17,6 +17,7 @@ export default defineConfig({
       "@assets": path.resolve(__dirname, "../attached_assets"),
     },
   },
+  root:path.resolve(__dirname),
   build: {
     outDir: "dist",
     emptyOutDir: true,
