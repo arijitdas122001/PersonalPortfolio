@@ -24,28 +24,26 @@ const AboutSection = () => {
             viewport={{ once: true }}
           >
             <p className="text-lg text-slate-600 leading-relaxed">
-              I'm a passionate full-stack developer with over 5 years of experience building 
-              web applications that solve real-world problems. My journey started with a curiosity 
-              about how things work, which led me to discover the endless possibilities of code.
+              Write your first paragraph about your background, experience, and what drives you 
+              in your professional journey. Make it personal and authentic to who you are.
             </p>
             <p className="text-lg text-slate-600 leading-relaxed">
-              When I'm not coding, you'll find me exploring new technologies, contributing to 
-              open-source projects, or sharing knowledge through technical writing. I believe 
-              in the power of clean code and user-centered design.
+              Add a second paragraph about your interests, hobbies, or what you do when you're 
+              not working. This helps visitors connect with you on a personal level.
             </p>
             
             <div className="flex flex-wrap gap-4 pt-6">
               <div className="flex items-center gap-2">
                 <i className="fas fa-map-marker-alt text-blue-600"></i>
-                <span className="text-slate-600">San Francisco, CA</span>
+                <span className="text-slate-600">Your City, State</span>
               </div>
               <div className="flex items-center gap-2">
                 <i className="fas fa-coffee text-blue-600"></i>
-                <span className="text-slate-600">Coffee Enthusiast</span>
+                <span className="text-slate-600">Your Hobby/Interest</span>
               </div>
               <div className="flex items-center gap-2">
                 <i className="fas fa-graduation-cap text-blue-600"></i>
-                <span className="text-slate-600">CS Graduate</span>
+                <span className="text-slate-600">Your Education</span>
               </div>
             </div>
           </motion.div>
