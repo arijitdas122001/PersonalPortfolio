@@ -24,7 +24,7 @@ const AboutSection = () => {
             viewport={{ once: true }}
           >
             <p className="text-lg text-slate-600 leading-relaxed">
-              I am Arijit Das, a 2024 graduate from KIIT, with a B.Tech in Computer Science. Currently working as a Front-end Developer at Corapixex,Bengaluru
+              I am Arijit Das, a 2024 graduate from KIIT, with a B.Tech in Computer Science. Currently working as a Front-end Developer at Corapixel,Bengaluru
             </p>
             <div className="flex flex-wrap gap-4 pt-6">
               <div className="flex items-center gap-2">

@@ -54,7 +54,7 @@ const HeroSection = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.6 }}
           >
-           I'm a passionate full-stack developer with over 5 years and 1 year of professional experience building web applications and solving real-world problems.
+           I'm a passionate full-stack developer with over 5 years of hands on coding  and 1 year of professional experience building web applications and solving real-world problems.
           </motion.p>
           
           <motion.div 
