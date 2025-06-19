@@ -3,15 +3,28 @@ import { motion } from "framer-motion";
 const SkillsSection = () => {
   const skillCategories = [
     {
+      title: "Languages",
+      icon: "fas fa-code",
+      iconColor: "text-violet-600",
+      bgColor: "bg-violet-100",
+      skills: [
+        { name: "C++", level: "Expert" },
+        { name: "Java", level: "Expert" },
+        { name: "Javascript", level: "Expert" },
+        { name: "Typescript", level: "Intermediate" }
+      ]
+    },
+    {
       title: "Frontend",
       icon: "fas fa-laptop-code",
       iconColor: "text-blue-600",
       bgColor: "bg-blue-100",
       skills: [
         { name: "React.js", level: "Expert" },
-        { name: "TypeScript", level: "Advanced" },
+        { name: "TypeScript", level: "Expert" },
+        { name: "Redux", level: "Intermediate" },
         { name: "Tailwind CSS", level: "Expert" },
-        { name: "Next.js", level: "Advanced" }
+        { name: "Next.js", level: "Intermediate" }
       ]
     },
     {
@@ -21,9 +34,22 @@ const SkillsSection = () => {
       bgColor: "bg-cyan-100",
       skills: [
         { name: "Node.js", level: "Expert" },
-        { name: "Python", level: "Advanced" },
-        { name: "PostgreSQL", level: "Advanced" },
-        { name: "MongoDB", level: "Intermediate" }
+        { name: "Express.js", level: "Expert" },
+        { name: "Spring boot", level: "Intermediate" },
+        { name: "Zod", level: "Expert" },
+        { name: "Jwt", level: "Expert" },
+        { name: "Routers", level: "Expert" },
+        { name: "Sequelize", level: "Intermediate" },
+      ]
+    },
+    {
+      title: "Databases",
+      icon: "fas fa-database",
+      iconColor: "text-cyan-600",
+      bgColor: "bg-cyan-100",
+      skills: [
+        { name: "MySQL", level: "Expert" },
+        { name: "MongoDB", level: "Expert" },
       ]
     },
     {
@@ -32,12 +58,14 @@ const SkillsSection = () => {
       iconColor: "text-violet-600",
       bgColor: "bg-violet-100",
       skills: [
+        { name: "Data Structures", level: "Expert" },
         { name: "Git & GitHub", level: "Expert" },
-        { name: "Docker", level: "Intermediate" },
-        { name: "AWS", level: "Intermediate" },
-        { name: "Figma", level: "Advanced" }
+        { name: "Docker", level: "Learning" },
+        { name: "Kubernetes", level: "Learning" },
+        { name: "AWS", level: "Learning" },
       ]
     }
+    
   ];
 
   return (

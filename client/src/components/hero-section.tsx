@@ -36,7 +36,7 @@ const HeroSection = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.6 }}
           >
-            Hi, I'm <span className="text-blue-600">Your Name</span>
+            Hi, I'm <span className="text-blue-600">Arijit Das</span>
           </motion.h1>
           
           <motion.p 
@@ -45,7 +45,7 @@ const HeroSection = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.6 }}
           >
-            Your Professional Title
+            A Software Developer
           </motion.p>
           
           <motion.p 
@@ -54,7 +54,7 @@ const HeroSection = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.6 }}
           >
-            Write your personal tagline or brief description about what you do and your passion.
+           I'm a passionate full-stack developer with over 5 years and 1 year of professional experience building web applications and solving real-world problems.
           </motion.p>
           
           <motion.div 

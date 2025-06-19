@@ -24,26 +24,20 @@ const AboutSection = () => {
             viewport={{ once: true }}
           >
             <p className="text-lg text-slate-600 leading-relaxed">
-              Write your first paragraph about your background, experience, and what drives you 
-              in your professional journey. Make it personal and authentic to who you are.
+              I am Arijit Das, a 2024 graduate from KIIT, with a B.Tech in Computer Science. Currently working as a Front-end Developer at Corapixex,Bengaluru
             </p>
-            <p className="text-lg text-slate-600 leading-relaxed">
-              Add a second paragraph about your interests, hobbies, or what you do when you're 
-              not working. This helps visitors connect with you on a personal level.
-            </p>
-            
             <div className="flex flex-wrap gap-4 pt-6">
               <div className="flex items-center gap-2">
                 <i className="fas fa-map-marker-alt text-blue-600"></i>
-                <span className="text-slate-600">Your City, State</span>
+                <span className="text-slate-600">Burdwan, West Bengal</span>
               </div>
               <div className="flex items-center gap-2">
                 <i className="fas fa-coffee text-blue-600"></i>
-                <span className="text-slate-600">Your Hobby/Interest</span>
+                <span className="text-slate-600">Software Development,Football</span>
               </div>
               <div className="flex items-center gap-2">
                 <i className="fas fa-graduation-cap text-blue-600"></i>
-                <span className="text-slate-600">Your Education</span>
+                <span className="text-slate-600">Bachelor of technology,Computer science</span>
               </div>
             </div>
           </motion.div>
@@ -71,7 +65,7 @@ const AboutSection = () => {
             >
               <div className="text-center">
                 <div className="text-2xl font-bold text-blue-600">5+</div>
-                <div className="text-sm text-slate-600">Years Experience</div>
+                <div className="text-sm text-slate-600">Years of hands on coding Experience</div>
               </div>
             </motion.div>
             
@@ -83,7 +77,7 @@ const AboutSection = () => {
               viewport={{ once: true }}
             >
               <div className="text-center">
-                <div className="text-2xl font-bold text-cyan-600">50+</div>
+                <div className="text-2xl font-bold text-cyan-600">20+</div>
                 <div className="text-sm text-slate-600">Projects Completed</div>
               </div>
             </motion.div>
