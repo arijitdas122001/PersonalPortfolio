@@ -5,33 +5,17 @@ const ExperienceSection = () => {
     {
       company: "Hansa Solutions India Pvt Ltd",
       logo: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&w=100&h=100&fit=crop&crop=face", // Replace with actual company logo
-      position: "Software Developer",
+      position: "System Developer",
       type: "Full-time",
-      duration: "Sep 2024 - Present",
-      period: "10 mos",
+      duration: "March 2024 - June 2025",
+      period: "1 year 4 months",
       location: "Hyderabad, Telangana, India",
-      technologies: ["ASP.NET Core"],
+      technologies: ["VB.Net","C#"],
       description: "Developing scalable web applications using ASP.NET Core framework. Working on enterprise-level solutions with focus on performance optimization and clean architecture patterns.",
       achievements: [
-        "Built robust backend APIs serving 10,000+ daily users",
-        "Implemented efficient database queries reducing response time by 40%",
-        "Collaborated with cross-functional teams on feature development"
-      ]
-    },
-    {
-      company: "Hansa Solutions India Pvt Ltd",
-      logo: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&w=100&h=100&fit=crop&crop=face", // Replace with actual company logo
-      position: "Trainee - Software Developer",
-      type: "Internship",
-      duration: "Mar 2024 - Aug 2024",
-      period: "6 mos",
-      location: "On-site",
-      technologies: ["C#", ".NET", "SQL Server"],
-      description: "Intensive training program focusing on software development fundamentals and modern development practices. Gained hands-on experience with enterprise development tools and methodologies.",
-      achievements: [
-        "Completed comprehensive training in .NET ecosystem",
-        "Developed training projects with 95% code quality score",
-        "Contributed to internal tools and automation scripts"
+        "Contributed to the organization’s dynamic product, tailored for different clients by writing PL/SQL queries to manage large number of SQL tables,that maintains website flexibility",
+        "Created a POST API request using ASP.NET to submit client endorsement details  ",
+        "Built an end-to-end workflow for claim retrieval, involving sql queries and table management for seamless data handling"
       ]
     }
   ];
