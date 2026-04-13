@@ -20,10 +20,10 @@ const SkillsSection = () => {
       iconColor: "text-blue-600",
       bgColor: "bg-blue-100",
       skills: [ 
-        { name: "React.js", level: "Expert" },
+        { name: "React.js", level: "Intermediate" },
         { name: "Redux", level: "Intermediate" },
         { name: "Tailwind CSS", level: "Expert" },
-        { name: "Next.js", level: "Intermediate" }
+        { name: "Angular", level: "Expert" }
       ]
     },
     {
@@ -33,12 +33,10 @@ const SkillsSection = () => {
       bgColor: "bg-cyan-100",
       skills: [
         { name: "Node.js", level: "Expert" },
-        { name: "Express.js", level: "Expert" },
         { name: "Spring boot", level: "Intermediate" },
-        { name: "Zod", level: "Expert" },
+        { name: "Spring security", level: "Expert" },
         { name: "Jwt", level: "Expert" },
-        { name: "Routers", level: "Expert" },
-        { name: "Sequelize", level: "Intermediate" },
+        { name: "Hibernate", level: "Intermediate" },
       ]
     },
     {
@@ -49,6 +47,7 @@ const SkillsSection = () => {
       skills: [
         { name: "MySQL", level: "Expert" },
         { name: "MongoDB", level: "Expert" },
+        { name: "Redis", level: "Expert" },
       ]
     },
     {

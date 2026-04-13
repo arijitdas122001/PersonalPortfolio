@@ -24,16 +24,16 @@ const AboutSection = () => {
             viewport={{ once: true }}
           >
             <p className="text-lg text-slate-600 leading-relaxed">
-              I am Arijit Das, a 2024 graduate from KIIT, with a B.Tech in Computer Science. Currently working as a Front-end Developer at Corapixel,Bengaluru
+              I am Arijit Das, a 2024 graduate from KIIT, with a B.Tech in Computer Science. Currently working as a Full stack developer at Corapixel,Bengaluru
             </p>
             <div className="flex flex-wrap gap-4 pt-6">
               <div className="flex items-center gap-2">
                 <i className="fas fa-map-marker-alt text-blue-600"></i>
-                <span className="text-slate-600">Burdwan, West Bengal</span>
+                <span className="text-slate-600">Bengalur, Karnataka</span>
               </div>
               <div className="flex items-center gap-2">
                 <i className="fas fa-coffee text-blue-600"></i>
-                <span className="text-slate-600">Software Development,Football</span>
+                <span className="text-slate-600">Software Development,Badminton</span>
               </div>
               <div className="flex items-center gap-2">
                 <i className="fas fa-graduation-cap text-blue-600"></i>
