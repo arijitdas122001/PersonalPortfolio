@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 
 const Footer = () => {
   const socialLinks = [
-    { icon: "fab fa-linkedin-in", href: "#" },
-    { icon: "fab fa-github", href: "#" },
-    { icon: "fab fa-twitter", href: "#" },
-    { icon: "fab fa-dribbble", href: "#" }
+    { icon: "fab fa-linkedin-in", href: "https://www.linkedin.com/in/arijit-das12/" },
+    { icon: "fab fa-github", href: "https://github.com/arijitdas122001" },
+    { icon: "fab fa-twitter", href: "https://x.com/ArijitD64046633" },
+    { icon: "fab fa-dribbble", href: "https://words-replace.vercel.app/" }
   ];
 
   return (
@@ -29,7 +29,7 @@ const Footer = () => {
                 key={index}
                 href={social.href} 
                 className="text-slate-400 hover:text-white transition-colors"
-                onClick={(e) => e.preventDefault()}
+                target="_blank"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -40,7 +40,7 @@ const Footer = () => {
           
           <div className="border-t border-slate-800 pt-8">
             <p className="text-slate-400 text-sm">
-              © 2025 Your Name. All rights reserved.
+              © 2025 Arijit Das. All rights reserved.
             </p>
           </div>
         </motion.div>

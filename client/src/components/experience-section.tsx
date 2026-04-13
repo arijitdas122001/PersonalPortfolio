@@ -5,33 +5,36 @@ const ExperienceSection = () => {
     {
       company: "Hansa Solutions India Pvt Ltd",
       logo: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&w=100&h=100&fit=crop&crop=face", // Replace with actual company logo
-      position: "Software Developer",
+      position: "System Developer",
       type: "Full-time",
-      duration: "Sep 2024 - Present",
-      period: "10 mos",
+      duration: "March 2024 - June 2025",
+      period: "1 year 4 months",
       location: "Hyderabad, Telangana, India",
-      technologies: ["ASP.NET Core"],
+      technologies: ["Java","MySql"],
       description: "Developing scalable web applications using ASP.NET Core framework. Working on enterprise-level solutions with focus on performance optimization and clean architecture patterns.",
       achievements: [
-        "Built robust backend APIs serving 10,000+ daily users",
-        "Implemented efficient database queries reducing response time by 40%",
-        "Collaborated with cross-functional teams on feature development"
+        "Developed REST api endpoints for client endorsement workflows, integrating backend services and ensuring reliable data processing",
+        "CDesigned and optimized PL/SQL queries and stored procedures to manage large relational datasets for enterprise insurance systems",
+        "Built an end-to-end workflow for claim retrieval, involving sql queries and table management for seamless data handling"
       ]
     },
     {
-      company: "Hansa Solutions India Pvt Ltd",
-      logo: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&w=100&h=100&fit=crop&crop=face", // Replace with actual company logo
-      position: "Trainee - Software Developer",
-      type: "Internship",
-      duration: "Mar 2024 - Aug 2024",
-      period: "6 mos",
-      location: "On-site",
-      technologies: ["C#", ".NET", "SQL Server"],
-      description: "Intensive training program focusing on software development fundamentals and modern development practices. Gained hands-on experience with enterprise development tools and methodologies.",
+      company: "Corapixel",
+      logo: "https://media.licdn.com/dms/image/v2/D560BAQGOOkSxgFXiEw/company-logo_200_200/company-logo_200_200/0/1723959352726?e=1777507200&v=beta&t=gJO4VnqJY5hbfbJlNlgTyuBp6sWEweXdcWKJpx7ZHhA", // Replace with actual company logo
+      position: "Full stack developer",
+      type: "Full-time",
+      duration: "July 2025 - present",
+      period: "on going",
+      location: "Bengaluru, Karnataka, India",
+      technologies: ["Java","Spring boot", "Angular","Azure","Redis","MongoDb"],
+      description: "Developing scalable web application used by 100+ clients using Spring boot base microservice architecture and Angular framework.It is a realtime website that collect the data through a vast range of iot devices, process them, and show the user realtime data with future predictions and end to end analysis report.",
       achievements: [
-        "Completed comprehensive training in .NET ecosystem",
-        "Developed training projects with 95% code quality score",
-        "Contributed to internal tools and automation scripts"
+        "Built a real-time telemetry dashboard using Angular, ApexCharts and Spring Boot APIs enabling live monitoring of operational metrics",
+        "Developed backend-driven PDF report generation using Spring Boot for automated analytics and reporting.",
+        "Built telemetry forecasting pipelines using Python (statsmodels, Prophet) to analyze historical system metrics and generate predictive insights",
+        "Automated system workflows and backend integrations using Azure Logic Apps and REST APIs, enabling event-driven orchestration between services and improving operational efficiency",
+        "Automated build and deployment workflows using CI/CD pipelines and Microsoft Azure Docker App Services, reducing release effort and accelerating delivery cycles."
+
       ]
     }
   ];
@@ -149,11 +152,11 @@ const ExperienceSection = () => {
         >
           <div className="grid md:grid-cols-3 gap-6">
             <div className="text-center">
-              <div className="text-2xl font-bold text-blue-600 mb-2">1.5+</div>
+              <div className="text-2xl font-bold text-blue-600 mb-2">2+</div>
               <div className="text-slate-600">Years Experience</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-cyan-600 mb-2">ASP.NET</div>
+              <div className="text-2xl font-bold text-cyan-600 mb-2">Spring boot</div>
               <div className="text-slate-600">Core Expertise</div>
             </div>
             <div className="text-center">

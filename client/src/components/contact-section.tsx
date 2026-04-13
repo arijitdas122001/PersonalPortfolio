@@ -55,28 +55,28 @@ const ContactSection = () => {
       iconColor: "text-blue-600",
       bgColor: "bg-blue-100",
       title: "Email",
-      value: "your.email@example.com"
+      value: "arijitd1211@gmail.com"
     },
     {
       icon: "fas fa-phone",
       iconColor: "text-cyan-600",
       bgColor: "bg-cyan-100",
       title: "Phone",
-      value: "Your Phone Number"
+      value: "+91 6295455828"
     },
     {
       icon: "fas fa-map-marker-alt",
       iconColor: "text-violet-600",
       bgColor: "bg-violet-100",
       title: "Location",
-      value: "Your City, State"
+      value: "Bengaluru, Karnataka  "
     }
   ];
 
   const socialLinks = [
-    { icon: "fab fa-linkedin-in", color: "bg-blue-600 hover:bg-blue-700" },
-    { icon: "fab fa-github", color: "bg-gray-800 hover:bg-gray-900" },
-    { icon: "fab fa-twitter", color: "bg-blue-400 hover:bg-blue-500" }
+    { icon: "fab fa-linkedin-in", color: "bg-blue-600 hover:bg-blue-700" ,link:'https://www.linkedin.com/in/arijit-das12/' },
+    { icon: "fab fa-github", color: "bg-gray-800 hover:bg-gray-900" ,link:"https://github.com/arijitdas122001" },
+    { icon: "fab fa-twitter", color: "bg-blue-400 hover:bg-blue-500" ,link:"https://x.com/ArijitD64046633"}
   ];
 
   return (
@@ -93,7 +93,7 @@ const ContactSection = () => {
           <div className="w-20 h-1 bg-blue-600 mx-auto rounded-full"></div>
           <p className="text-lg text-slate-600 mt-4 max-w-2xl mx-auto">
             I'm always open to discussing new opportunities and interesting projects. 
-            Let's create something amazing together!
+            Let's grow together!
           </p>
         </motion.div>
         
@@ -132,9 +132,9 @@ const ContactSection = () => {
                 {socialLinks.map((social, index) => (
                   <a 
                     key={index}
-                    href="#" 
+                    href={social.link}
+                    target="_blank"
                     className={`w-10 h-10 ${social.color} text-white rounded-lg flex items-center justify-center transition-colors`}
-                    onClick={(e) => e.preventDefault()}
                   >
                     <i className={social.icon}></i>
                   </a>
@@ -174,7 +174,7 @@ const ContactSection = () => {
                     <FormItem>
                       <FormLabel>Email</FormLabel>
                       <FormControl>
-                        <Input type="email" placeholder="your.email@example.com" {...field} />
+                        <Input type="email" placeholder="arijitd1211@gmail.com" {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -188,7 +188,7 @@ const ContactSection = () => {
                     <FormItem>
                       <FormLabel>Subject</FormLabel>
                       <FormControl>
-                        <Input placeholder="Project inquiry" {...field} />
+                        <Input placeholder="Enquiry" {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>

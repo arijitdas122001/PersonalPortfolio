@@ -4,10 +4,10 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "dev": "NODE_ENV=development tsx server/index.ts",
+    "dev": "vite",
     "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
-    "start": "NODE_ENV=production node dist/index.js",
     "check": "tsc",
+    "preview": "vite preview",
     "db:push": "drizzle-kit push"
   },
   "dependencies": {
@@ -42,6 +42,8 @@
     "@radix-ui/react-toggle-group": "^1.1.3",
     "@radix-ui/react-tooltip": "^1.2.0",
     "@tanstack/react-query": "^5.60.5",
+    "baseline-browser-mapping": "^2.10.18",
+    "caniuse-lite": "^1.0.30001787",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
@@ -97,7 +99,7 @@
     "tailwindcss": "^3.4.17",
     "tsx": "^4.19.1",
     "typescript": "5.6.3",
-    "vite": "^5.4.14"
+    "vite": "^4.4.5"
   },
   "optionalDependencies": {
     "bufferutil": "^4.0.8"
